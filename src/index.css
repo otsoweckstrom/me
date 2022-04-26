@@ -11,14 +11,14 @@
 }
 
 :root {
-  --color-bg: #36063a;
+  --color-bg: #0f0016;
   --color-bg-variant: #3d3d71;
   --color-primary: rgba(158, 22, 200, 0.766);
   --color-primary-variant: rgba(81, 22, 99, 0.857);
-  --color-white: #fff;
+  --color-white: rgb(255, 255, 255);
   --color-light: rgba(255, 255, 255, 0.6);
 
-  --transition: all 400ms ease;
+  --transition: all 300ms ease;
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
@@ -61,6 +61,7 @@ h1 {
 
 section {
   margin-top: 8rem;
+  height: 100vh;
 }
 
 section > h2,
@@ -76,6 +77,9 @@ section > h2 {
 
 .text-light {
   color: var(--color-light);
+}
+.text-dark {
+  color: var(--color-primary);
 }
 
 a {
