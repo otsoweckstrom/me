@@ -12,6 +12,7 @@ const Header = () => {
         <h1 className="text-dark">Otso Weckström</h1>
         <h5 className="text-light">Software Engineering Student</h5>
         <h5 className="text-light">Developer / Consultant</h5>
+        <CTA />
         
         <a href="#contact" className="scroll__down">
           Scroll Down
@@ -20,7 +21,7 @@ const Header = () => {
           <img src={Portrait} alt="me" />
         </div>
 
-        <CTA />
+        
 
 
         <HeaderSocials />
