@@ -64,12 +64,39 @@
 }
 
 .about__card small {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     color: var(--color-light);
 }
 
 .about__content p {
     margin: 2rem 0 2.6rem;
+    color: var(--color-light);
+}
+
+.glow {
+    font-size: 2.5rem;
+    color: var(--color-primary);
+    text-align: center;
+    -webkit-animation: glow 0.8s ease-in-out infinite alternate;
+    -moz-animation: glow 0.8s ease-in-out infinite alternate;
+    animation: glow 0.8s ease-in-out infinite alternate;
+}
+.name {
+    color: var(--color-primary);
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px var(--color-primary),
+            0 0 20px var(--color-primary), 0 0 30px #e60073, 0 0 40px #e60073;
+    }
+    to {
+        text-shadow: 0 0 20px var(--color-primary), 0 0 30px #ff4da6,
+            0 0 40px #ff4da6, 0 0 50px #ff4da6;
+    }
+}
+
+.stand-up {
     color: var(--color-light);
 }
 

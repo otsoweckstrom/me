@@ -2,7 +2,8 @@ import React from 'react'
 import './header.css'
 import CTA from './CTA'
 import HeaderSocials from './HeaderSocials'
-import Portrait from '../../assets/slush-purple2.jpg'
+/* import Portrait from '../../assets/slush-purple2.jpg' */
+import Portrait from '../../assets/slush-portrait3.jpg'
 
 const Header = () => {
   return (
