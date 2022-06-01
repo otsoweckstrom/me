@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './about.css'
 /* import ME from '../../assets/slush-portrait3.jpg' */
 import ME from '../../assets/slush-purple.jpg'
@@ -6,16 +6,27 @@ import { FaAward } from 'react-icons/fa'
 import { FiUsers } from 'react-icons/fi'
 
 const About = () => {
+    const [style, setStyle] = useState({ color: 'transparent' })
     return (
         <section id="about">
             <h5>a little bit</h5>
             <h2 className="glow">About Me!</h2>
             <div className="container about__container">
                 <div className="about__me">
-                    <div className="about__me-image">
+                    <div
+                        className="about__me-image"
+                        onMouseEnter={(e) => {
+                            setStyle({ color: 'var(--color-light)' })
+                        }}
+                        onMouseLeave={(e) => {
+                            setStyle({ color: 'transparent' })
+                        }}
+                    >
                         <img src={ME} alt="About Image" />
                     </div>
-                    <p className='stand-up'>a stand-up guy</p>
+                    <div>
+                        <p style={style}>a stand-up guy</p>
+                    </div>
                 </div>
 
                 <div className="about__content">
@@ -50,15 +61,17 @@ const About = () => {
                         <span className="name">Otso Weckström. </span>
                     </p>
                     <p>
-                        I'm a Computer Science student with a bachelor's degree studying in Lappeenranta.
+                        I'm a Computer Science student with a bachelor's degree
+                        studying in Lappeenranta.
                     </p>
                     <p>
                         Alongside studying I am also working at Visma Consulting
-                        Oy. Visma is a consulting company so the projects vary quite a bit. I've gotten to learn and implement multiple new technologies. 
-                        
+                        Oy.
                     </p>
                     <p>
-                     I don't think I've yet found the one thing I want to be doing so my plan is to keep an open mind and learn as I go.
+                        I don't think I've yet found the one thing I want to be
+                        doing so my plan is to keep an open mind and learn as I
+                        go.
                     </p>
                     {/* <a href="#contact" className='btn btn-primary'>Let's Talk</a> */}
                 </div>

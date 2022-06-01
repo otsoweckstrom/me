@@ -26,10 +26,12 @@
     overflow: hidden;
     transform: rotate(10deg);
     transition: var(--transition);
+    color: transparent;
 }
 
 .about__me-image:hover {
     transform: rotate(0);
+    color: var(--color-light);
 }
 
 .about__cards {
@@ -84,6 +86,12 @@
 .name {
     color: var(--color-primary);
 }
+.stand-up {
+    color: transparent;
+}
+.stand-up:hover {
+    color: var(--color-light);
+}
 
 @keyframes glow {
     from {
@@ -94,10 +102,6 @@
         text-shadow: 0 0 20px var(--color-primary), 0 0 30px #ff4da6,
             0 0 40px #ff4da6, 0 0 50px #ff4da6;
     }
-}
-
-.stand-up {
-    color: var(--color-light);
 }
 
 @media screen and (max-width: 1024px) {
