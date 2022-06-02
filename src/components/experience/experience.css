@@ -1,5 +1,6 @@
 #experience {
-    padding-top: 7rem;
+    padding-top: 3rem;
+    margin-bottom: 6rem;
 }
 
 .experience__container {
@@ -11,7 +12,6 @@
 }
 
 .experience__column {
-    border: 1px solid yellow;
 }
 
 .experience__title {
