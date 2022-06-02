@@ -1,5 +1,46 @@
+#experience {
+    padding-top: 7rem;
+}
+
 .experience__container {
     display: grid;
-    grid-template-columns: repeat(3, 200px);
-    gap: 15%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    height: 25rem;
+    margin: 0 100px 0 100px;
+}
+
+.experience__column {
+    border: 1px solid yellow;
+}
+
+.experience__title {
+    text-align: center;
+    color: var(--color-primary);
+    margin-bottom: 30px;
+}
+.list__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+ul.a {
+    margin: 0 30px 0 auto;
+    list-style-type: circle;
+    text-align: center;
+}
+ul.b {
+    margin: 0 60px 0 auto;
+    list-style-type: circle;
+    text-align: left;
+}
+li {
+    border-bottom: 0.5px solid rgb(85, 30, 137);
+    width: auto;
+}
+
+.experience__bottom {
+    margin-top: 60px;
+    color: var(--color-primary);
+    text-align: center;
 }
