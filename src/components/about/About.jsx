@@ -25,7 +25,7 @@ const About = () => {
                         <img src={ME} alt="About Image" />
                     </div>
                     <div>
-                        <p style={style}>a stand-up guy</p>
+                        <h5 style={style}>a stand-up guy</h5>
                     </div>
                 </div>
 

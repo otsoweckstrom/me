@@ -78,6 +78,7 @@
     font-size: 2.5rem;
     color: var(--color-primary);
     text-align: center;
+    cursor: default;
     -webkit-animation: glow 0.8s ease-in-out infinite alternate;
     -moz-animation: glow 0.8s ease-in-out infinite alternate;
     animation: glow 0.8s ease-in-out infinite alternate;
