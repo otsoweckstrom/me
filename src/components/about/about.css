@@ -26,10 +26,12 @@
     overflow: hidden;
     transform: rotate(10deg);
     transition: var(--transition);
+    color: transparent;
 }
 
 .about__me-image:hover {
     transform: rotate(0);
+    color: var(--color-light);
 }
 
 .about__cards {
@@ -58,19 +60,59 @@
     font-size: 1.4rem;
     margin-bottom: 1rem;
 }
+.about__text {
+    margin-top: 50px;
+}
+
+.about__text p {
+    margin-top: 5px;
+}
+.about__text h2 {
+    font-size: 24px;
+}
 
 .about__card h5 {
     font-size: 0.95rem;
 }
 
 .about__card small {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     color: var(--color-light);
 }
 
-.about__content p {
-    margin: 2rem 0 2.6rem;
+.about__cards p {
     color: var(--color-light);
+}
+
+.glow {
+    font-size: 2.5rem;
+    color: var(--color-primary);
+    text-align: center;
+    cursor: default;
+    -webkit-animation: glow 0.8s ease-in-out infinite alternate;
+    -moz-animation: glow 0.8s ease-in-out infinite alternate;
+    animation: glow 0.8s ease-in-out infinite alternate;
+}
+.name {
+    color: var(--color-primary);
+    font-size: 19px;
+}
+.stand-up {
+    color: transparent;
+}
+.stand-up:hover {
+    color: var(--color-light);
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px var(--color-primary),
+            0 0 20px var(--color-primary), 0 0 30px #e60073, 0 0 40px #e60073;
+    }
+    to {
+        text-shadow: 0 0 20px var(--color-primary), 0 0 30px #ff4da6,
+            0 0 40px #ff4da6, 0 0 50px #ff4da6;
+    }
 }
 
 @media screen and (max-width: 1024px) {
