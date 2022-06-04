@@ -60,6 +60,16 @@
     font-size: 1.4rem;
     margin-bottom: 1rem;
 }
+.about__text {
+    margin-top: 50px;
+}
+
+.about__text p {
+    margin-top: 5px;
+}
+.about__text h2 {
+    font-size: 24px;
+}
 
 .about__card h5 {
     font-size: 0.95rem;
@@ -70,7 +80,7 @@
     color: var(--color-light);
 }
 
-.about__content p {
+.about__cards p {
     color: var(--color-light);
 }
 
@@ -85,6 +95,7 @@
 }
 .name {
     color: var(--color-primary);
+    font-size: 19px;
 }
 .stand-up {
     color: transparent;

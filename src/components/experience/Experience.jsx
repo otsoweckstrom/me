@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './experience.css'
 
 const Experience = () => {
+    const [isShown, setIsShown] = useState(false)
     return (
         <section id="experience">
             <h5>So what can I do?</h5>
@@ -10,7 +11,7 @@ const Experience = () => {
                 <div className="experience__column">
                     <h1 className="experience__title">Languages</h1>
                     <div className="list__container">
-                        <ul class="a">
+                        <ul className="a">
                             <li>React</li>
                             <li>React Native</li>
                             <li>JavaScript</li>
@@ -20,7 +21,7 @@ const Experience = () => {
                             <li>C#</li>
                             <li>C</li>
                         </ul>
-                        <ul class="b">
+                        <ul className="b">
                             <li>Good</li>
                             <li>Good</li>
                             <li>Good</li>
@@ -35,7 +36,7 @@ const Experience = () => {
                 <div className="experience__column">
                     <h1 className="experience__title">Technologies</h1>
                     <div className="list__container">
-                        <ul class="a">
+                        <ul className="a">
                             <li>Node.js</li>
                             <li>s</li>
                             <li>JavaScript</li>
@@ -45,7 +46,7 @@ const Experience = () => {
                             <li>C#</li>
                             <li>C</li>
                         </ul>
-                        <ul class="b">
+                        <ul className="b">
                             <li>Good</li>
                             <li>Good</li>
                             <li>Good</li>
@@ -60,7 +61,7 @@ const Experience = () => {
                 <div className="experience__column">
                     <h1 className="experience__title">Other</h1>
                     <div className="list__container">
-                        <ul class="a">
+                        <ul className="a">
                             <li>Github</li>
                             <li>s</li>
                             <li>JavaScript</li>
@@ -70,8 +71,8 @@ const Experience = () => {
                             <li>C#</li>
                             <li>C</li>
                         </ul>
-                        <ul class="b">
-                            <li>Good</li>
+                        <ul className="b">
+                            <li className="good">Good</li>
                             <li>Good</li>
                             <li>Good</li>
                             <li>Good</li>
@@ -85,13 +86,13 @@ const Experience = () => {
                 <div className="experience__column">
                     <h1 className="experience__title">Gaming</h1>
                     <div className="list__container">
-                        <ul class="a">
+                        <ul className="a">
                             <li>League Of Legends</li>
                             <li>CS:GO</li>
                             <li>Hearthstone</li>
                             <li>Clash Royale</li>
                         </ul>
-                        <ul class="b">
+                        <ul className="b">
                             <li>Diamond</li>
                             <li>Global Elite</li>
                             <li>Legend</li>

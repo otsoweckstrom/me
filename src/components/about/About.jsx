@@ -55,24 +55,27 @@ const About = () => {
                             </small>
                         </article>
                     </div>
-                    <p>Hi!</p>
-                    <p>
-                        My name is{' '}
-                        <span className="name">Otso Weckström. </span>
-                    </p>
-                    <p>
-                        I'm a Computer Science student with a bachelor's degree
-                        studying in Lappeenranta.
-                    </p>
-                    <p>
-                        Alongside studying I am also working at Visma Consulting
-                        Oy.
-                    </p>
-                    <p>
-                        I don't think I've yet found the one thing I want to be
-                        doing so my plan is to keep an open mind and learn as I
-                        go.
-                    </p>
+                    <div className="about__text">
+                        <h2 >Hi!</h2>
+                        <p>
+                            My name is 
+                            <span className="name"> Otso Weckström. </span>
+                        </p>
+                        <p>
+                            I'm a Computer Science student with a bachelor's
+                            degree studying in Lappeenranta.
+                        </p>
+                        <p>
+                            Alongside studying I am also working at Visma
+                            Consulting Oy.
+                        </p>
+                        <p>
+                            I don't think I've yet found the one thing I want to
+                            be doing so my plan is to keep an open mind and
+                            learn as I go!
+                        </p>
+                    </div>
+
                     {/* <a href="#contact" className='btn btn-primary'>Let's Talk</a> */}
                 </div>
             </div>
