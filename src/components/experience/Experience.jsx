@@ -38,12 +38,12 @@ const Experience = () => {
                     <div className="list__container">
                         <ul className="a">
                             <li>Node.js</li>
-                            <li>s</li>
-                            <li>JavaScript</li>
-                            <li>TypeScript</li>
-                            <li>Java</li>
-                            <li>Python</li>
-                            <li>C#</li>
+                            <li>Git</li>
+                            <li>AWS</li>
+                            <li>Azure</li>
+                            <li>Linux</li>
+                            <li>MacOS</li>
+                            <li>Android</li>
                             <li>C</li>
                         </ul>
                         <ul className="b">
